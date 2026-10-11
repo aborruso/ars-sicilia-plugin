@@ -15,14 +15,14 @@ Il server è la [CLI ars-sicilia](https://github.com/mvanhorn/printing-press-lib
 
 Scarica `ars-sicilia.mcpb` e installalo da **Settings > Extensions > Advanced settings > Install Extension…**, oppure trascinalo nella finestra di Claude Desktop. Su Windows il doppio clic sul file può non aprire l'installazione. Conferma nella schermata che si apre e riavvia Claude Desktop.
 
-Funziona su Windows (x64) e macOS (Apple Silicon e Intel). Non serve installare altro: i programmi sono dentro il file.
+Contiene i programmi per Windows (x64) e macOS (Apple Silicon e Intel): non serve installare altro. Provato su Windows; su macOS non ancora.
 
 ### 2. Il plugin
 
-In Claude, **Personalizza > Plugin > Aggiungi**:
+In Claude Desktop, **Customize > Plugins > Add**:
 
 - da questo repository come marketplace, con l'indirizzo del repository;
-- oppure con **Carica plugin**, scegliendo lo zip della cartella `plugins/ars-sicilia`.
+- oppure con **Upload plugin**, scegliendo lo zip della cartella `plugins/ars-sicilia`.
 
 In Claude Code:
 
