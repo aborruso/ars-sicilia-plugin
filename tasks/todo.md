@@ -39,7 +39,7 @@ Nelle risposte di prova la colonna «Fonte» delle tabelle riportava solo un'eti
 
 - [x] `SKILL.md`: sezione «Come presentare la risposta», con il link di ogni riga nella colonna Fonte e la regola su quali URL usare (`permalink` della scheda, mai l'`url` degli eventi di `ddl_iter`; `url` di sommari, resoconti e convocazioni) → verifica: URL controllati sull'output della CLI e sul codice (`icaroclient/client.go`, `bd.go`).
 - [x] `claude plugin validate` su plugin e marketplace → verifica: passa.
-- [ ] Claude Desktop: zip del plugin aggiornato, stessa domanda sul ddl 1018 → verifica: ogni riga della tabella ha il suo link e nessun link `icaQueryId`.
+- [x] Claude Desktop: zip del plugin aggiornato, stessa domanda sul ddl 1018 → verifica: ogni riga della tabella ha il suo link e nessun link `icaQueryId`.
 
 ## Domande aperte
 

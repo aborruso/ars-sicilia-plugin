@@ -5,6 +5,7 @@
 - Chat e Cowork ora sono un'unica interfaccia (annuncio Anthropic del 2026-09-16). Prova su Windows: gli strumenti dell'estensione funzionano sia nelle domande brevi sia in un task lungo che crea un Claude Docs (42 `tools/call` al server `ARS Sicilia` tra le 21:04 e le 21:18). La skill si carica se la nomini («Loaded skill ars-sicilia») e poi guida le chiamate: `ddl_get`, `ddl_iter`, `novita`, `commissioni_sommari`, `commissioni_convocazioni`. Non provato: se si attiva da sola, senza essere nominata.
 - I log di Claude Desktop stanno in `AppData\Local\Claude\Logs`, non più in `Roaming\Claude\logs`. Non registrano il nome dello strumento chiamato né le skill caricate.
 - Skill: nuova sezione «Come presentare la risposta». Nelle prove la colonna Fonte delle tabelle aveva solo etichette e i link stavano tutti in fondo. Ora ogni riga porta il suo link. L'`url` degli eventi di `ddl_iter` (`icaro/doc...jsp?icaQueryId=1`) vale solo per la sessione: si usa il `permalink` di `ddl_get`. L'URL delle convocazioni (`/bd/convocazioni/results/<id>`) contiene l'id del documento ed è stabile: riaperto dopo ore risponde 200 sulla stessa convocazione.
+- Prova in Claude Desktop (modalità Auto) con lo zip del plugin aggiornato: ogni riga della tabella ha il suo link nella colonna Fonte (scheda ddl, sommari 126/132/133/137, convocazione 155) e il link «scheda ddl» è il permalink `icaro/default.jsp?icaDB=221&icaQuery=docno(9336)`. Nella risposta precedente, prima della modifica, la colonna aveva solo etichette.
 
 ## 2026-10-11 - pubblicato
 
