@@ -15,7 +15,7 @@ I nomi dei menu sono quelli dell'interfaccia di Claude Desktop in inglese; con l
 
 ### 1. L'estensione (Claude Desktop)
 
-Scarica `ars-sicilia.mcpb` e installalo da **Settings > Extensions > Advanced settings > Install Extension…**, oppure trascinalo nella finestra di Claude Desktop. Su Windows il doppio clic sul file può non aprire l'installazione. Conferma nella schermata che si apre e riavvia Claude Desktop.
+Scarica `ars-sicilia.mcpb` dall'[ultima release](https://github.com/aborruso/ars-sicilia-plugin/releases/latest) e installalo da **Settings > Extensions > Advanced settings > Install Extension…**, oppure trascinalo nella finestra di Claude Desktop. Su Windows il doppio clic sul file può non aprire l'installazione. Conferma nella schermata che si apre e riavvia Claude Desktop.
 
 Contiene i programmi per Windows (x64) e macOS (Apple Silicon e Intel): non serve installare altro. Provato su Windows; su macOS non ancora.
 
@@ -23,13 +23,13 @@ Contiene i programmi per Windows (x64) e macOS (Apple Silicon e Intel): non serv
 
 In Claude Desktop, **Customize > Plugins > Add**:
 
-- da questo repository come marketplace, con l'indirizzo del repository;
-- oppure con **Upload plugin**, scegliendo lo zip della cartella `plugins/ars-sicilia`.
+- **Add marketplace** con l'indirizzo `https://github.com/aborruso/ars-sicilia-plugin`, poi installa `ars-sicilia`;
+- oppure **Upload plugin** con `ars-sicilia-plugin.zip`, anche questo nell'[ultima release](https://github.com/aborruso/ars-sicilia-plugin/releases/latest).
 
 In Claude Code:
 
 ```bash
-claude plugin marketplace add <owner>/ars-sicilia-plugin
+claude plugin marketplace add aborruso/ars-sicilia-plugin
 claude plugin install ars-sicilia@ars-sicilia
 ```
 
