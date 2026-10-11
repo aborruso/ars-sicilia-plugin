@@ -13,7 +13,7 @@ Il server è la [CLI ars-sicilia](https://github.com/mvanhorn/printing-press-lib
 
 ### 1. L'estensione (Claude Desktop)
 
-Scarica `ars-sicilia.mcpb` e aprilo con un doppio clic, oppure trascinalo nella finestra di Claude Desktop, oppure da **Impostazioni > Estensioni > Impostazioni avanzate > Installa estensione**. Conferma nella schermata che si apre e riavvia Claude Desktop.
+Scarica `ars-sicilia.mcpb` e installalo da **Settings > Extensions > Advanced settings > Install Extension…**, oppure trascinalo nella finestra di Claude Desktop. Su Windows il doppio clic sul file può non aprire l'installazione. Conferma nella schermata che si apre e riavvia Claude Desktop.
 
 Funziona su Windows (x64) e macOS (Apple Silicon e Intel). Non serve installare altro: i programmi sono dentro il file.
 
@@ -45,7 +45,7 @@ Fai la domanda in italiano, come la faresti a una persona:
 | | Chat di Claude Desktop | Cowork | Claude Code | claude.ai web e mobile |
 |---|---|---|---|---|
 | skill del plugin | sì | sì | sì | sì |
-| strumenti (estensione) | sì | da verificare | con la configurazione MCP | no |
+| strumenti (estensione) | sì (provato su Windows) | da verificare | con la configurazione MCP | no |
 
 Sul web e sul telefono il server locale non c'è: la skill si carica, ma senza strumenti Claude non può leggere il portale.
 
