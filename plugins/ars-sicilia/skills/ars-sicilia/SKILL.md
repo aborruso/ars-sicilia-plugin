@@ -24,8 +24,19 @@ La legislatura corrente è la **XVIII** (`legisl: 18`, dal 2022). La XVII copre 
 - **Una ricerca vuota non prova che l'atto non esista.** Il portale pubblica in ritardo, e il ritardo cambia da archivio ad archivio (da pochi giorni a quasi due mesi). Per una notizia recente chiama `novita` (per esempio `since: "30d"`, `archivi: "ddl,resoconti"`): dice fin dove arriva ogni archivio.
 - **"Il backend non ha risposto" è un guasto temporaneo**, non un'assenza: riprova, restringendo la ricerca.
 - `troncato: true` vuol dire che ci sono altri risultati oltre quelli mostrati: alza `limit` o restringi prima di dire che qualcosa manca.
-- Per citare un atto usa **`permalink`** o `docno` della scheda. Il campo `url` degli archivi di atti non è stabile e non va riportato; quello di resoconti e sommari invece sì.
+- Per citare un atto usa **`permalink`** o `docno` della scheda. Il campo `url` degli archivi di atti non è stabile e non va riportato; quello di resoconti, sommari e convocazioni invece sì (vedi «Come presentare la risposta»).
 - Ogni data ha accanto **`data_iso`** (`AAAA-MM-GG`): usala per ordinare e confrontare.
+
+## Come presentare la risposta
+
+Ogni fatto deve portare al documento da cui viene, nel punto in cui lo dici.
+
+- In una tabella o in una cronologia, la colonna **Fonte** contiene il link di quella riga, con un'etichetta breve: `[sommario 133](url)`, `[scheda ddl](permalink)`, `[convocazione 155](url)`. Un'etichetta senza link («sommario») costringe chi legge a cercare la riga corrispondente altrove.
+- Quali URL usare:
+  - atti (ddl, leggi, interrogazioni, mozioni, ordini del giorno, risoluzioni, interpellanze): il **`permalink`** restituito da `*_get`. Le righe che vengono da `ddl_iter` si collegano al `permalink` della scheda del ddl (`ddl_get`), **mai** all'`url` degli eventi di `ddl_iter`: è un indirizzo `icaro/doc...jsp?icaQueryId=...` che vale solo per la sessione di ricerca e, aperto più tardi, non porta all'atto;
+  - sommari di commissione (`/bd/sommari/scheda/...`), convocazioni (`/bd/convocazioni/results/<id>`) e resoconti d'aula: il loro `url`, oppure `pdf_url` per il testo stenografico.
+- Se una riga non ha un URL stabile, scrivi la fonte per esteso (archivio, numero, data) invece di un link che non funzionerà.
+- In fondo puoi aggiungere l'elenco «Fonti» come riepilogo, ma i link restano anche nelle righe.
 
 ## Percorsi principali
 

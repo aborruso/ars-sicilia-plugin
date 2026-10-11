@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-10-11 - prove nell'interfaccia unica e link nelle risposte
+
+- Chat e Cowork ora sono un'unica interfaccia (annuncio Anthropic del 2026-09-16). Prova su Windows: gli strumenti dell'estensione funzionano sia nelle domande brevi sia in un task lungo che crea un Claude Docs (42 `tools/call` al server `ARS Sicilia` tra le 21:04 e le 21:18). La skill si carica se la nomini («Loaded skill ars-sicilia») e poi guida le chiamate: `ddl_get`, `ddl_iter`, `novita`, `commissioni_sommari`, `commissioni_convocazioni`. Non provato: se si attiva da sola, senza essere nominata.
+- I log di Claude Desktop stanno in `AppData\Local\Claude\Logs`, non più in `Roaming\Claude\logs`. Non registrano il nome dello strumento chiamato né le skill caricate.
+- Skill: nuova sezione «Come presentare la risposta». Nelle prove la colonna Fonte delle tabelle aveva solo etichette e i link stavano tutti in fondo. Ora ogni riga porta il suo link. L'`url` degli eventi di `ddl_iter` (`icaro/doc...jsp?icaQueryId=1`) vale solo per la sessione: si usa il `permalink` di `ddl_get`. L'URL delle convocazioni (`/bd/convocazioni/results/<id>`) contiene l'id del documento ed è stabile: riaperto dopo ore risponde 200 sulla stessa convocazione.
+
 ## 2026-10-11 - pubblicato
 
 - Repo pubblico https://github.com/aborruso/ars-sicilia-plugin, release v0.1.0 con `ars-sicilia.mcpb` (estensione, `2026.9.7-local.3911710`) e `ars-sicilia-plugin.zip`.
