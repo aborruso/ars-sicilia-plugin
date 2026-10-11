@@ -1,5 +1,11 @@
 # LOG
 
+## 2026-10-11 - pubblicato
+
+- Repo pubblico https://github.com/aborruso/ars-sicilia-plugin, release v0.1.0 con `ars-sicilia.mcpb` (estensione, `2026.9.7-local.3911710`) e `ars-sicilia-plugin.zip`.
+- Marketplace verificato da GitHub in una configurazione di Claude Code temporanea: `marketplace add aborruso/ars-sicilia-plugin` e `install ars-sicilia@ars-sicilia` riescono, inventario `Skills (1) ars-sicilia`.
+- Da rifare quando la PR #2309 sarà mergiata: ricostruire il bundle dalla release del catalogo e pubblicare una v0.1.1.
+
 ## 2026-10-11 - prima versione, solo locale
 
 - Repo separato dalla CLI: dentro la CLI il packager del catalogo copierebbe le cartelle del plugin nelle PR.

@@ -31,7 +31,7 @@ Decisioni prese: repo separato, italiano, prima solo locale, bundle incluso.
 ## Fase 4 - chiusura
 
 - [x] LOG.md, `.gitignore` (`dist/`, `build/`), commit locale → verifica: `git status` pulito.
-- [ ] Repo pubblico e release con il `.mcpb`: solo su conferma.
+- [x] Repo pubblico e release con il `.mcpb`: solo su conferma.
 
 ## Domande aperte
 
