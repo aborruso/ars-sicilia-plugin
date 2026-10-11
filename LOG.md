@@ -5,6 +5,7 @@
 - Repo pubblico https://github.com/aborruso/ars-sicilia-plugin, release v0.1.0 con `ars-sicilia.mcpb` (estensione, `2026.9.7-local.3911710`) e `ars-sicilia-plugin.zip`.
 - Marketplace verificato da GitHub in una configurazione di Claude Code temporanea: `marketplace add aborruso/ars-sicilia-plugin` e `install ars-sicilia@ars-sicilia` riescono, inventario `Skills (1) ars-sicilia`.
 - Da rifare quando la PR #2309 sarà mergiata: ricostruire il bundle dalla release del catalogo e pubblicare una v0.1.1.
+- Aperta la issue #1 per tracciare l'aggiornamento dopo il merge di mvanhorn/printing-press-library#2309. Annotato anche che `scripts/build-mcpb.sh` aggiunge sempre il suffisso `-local.<sha>`, mentre il commento lo dice condizionale.
 
 ## 2026-10-11 - prima versione, solo locale
 
