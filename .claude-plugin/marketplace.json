@@ -1,0 +1,15 @@
+{
+  "name": "ars-sicilia",
+  "description": "Plugin per lavorare sugli atti dell'Assemblea Regionale Siciliana con Claude.",
+  "owner": {
+    "name": "Andrea Borruso",
+    "url": "https://github.com/aborruso"
+  },
+  "plugins": [
+    {
+      "name": "ars-sicilia",
+      "source": "./plugins/ars-sicilia",
+      "description": "Disegni di legge, leggi, atti ispettivi, resoconti e lavori di commissione dell'ARS, letti dal portale ufficiale."
+    }
+  ]
+}

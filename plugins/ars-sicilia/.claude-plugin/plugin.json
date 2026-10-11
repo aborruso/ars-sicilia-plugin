@@ -1,0 +1,9 @@
+{
+  "name": "ars-sicilia",
+  "displayName": "ARS Sicilia",
+  "version": "0.1.0",
+  "description": "Cerca e ricostruisce gli atti dell'Assemblea Regionale Siciliana: disegni di legge e il loro iter, leggi regionali, interrogazioni, mozioni, resoconti d'aula e lavori delle commissioni, dal portale dati.ars.sicilia.it. Richiede l'estensione ars-sicilia.mcpb in Claude Desktop.",
+  "author": { "name": "Andrea Borruso", "url": "https://github.com/aborruso" },
+  "license": "Apache-2.0",
+  "keywords": ["sicilia", "ars", "assemblea regionale", "disegni di legge", "open data"]
+}

@@ -1,0 +1,32 @@
+{
+  "manifest_version": "0.3",
+  "name": "ars-sicilia-pp-mcp",
+  "display_name": "ARS Sicilia",
+  "version": "0.0.0",
+  "description": "Gli archivi dell'Assemblea Regionale Siciliana come strumenti MCP: disegni di legge, leggi, interrogazioni, mozioni, resoconti d'aula e lavori delle commissioni.",
+  "long_description": "Interroga dal vivo il portale dati.ars.sicilia.it: ricerca e scheda degli atti, iter dei disegni di legge, cronologia delle leggi regionali, sommari e convocazioni delle commissioni, profili dei deputati. Dati pubblici, nessun account richiesto. Il server gira sul tuo computer e contatta solo il portale dell'ARS.",
+  "author": {
+    "name": "Andrea Borruso",
+    "url": "https://github.com/aborruso"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvanhorn/printing-press-library"
+  },
+  "homepage": "https://github.com/mvanhorn/printing-press-library/tree/main/library/other/ars-sicilia",
+  "license": "Apache-2.0",
+  "keywords": ["sicilia", "ars", "assemblea regionale", "disegni di legge", "open data"],
+  "server": {
+    "type": "binary",
+    "entry_point": "bin/ars-sicilia-pp-mcp",
+    "mcp_config": {
+      "command": "${__dirname}/bin/ars-sicilia-pp-mcp",
+      "args": []
+    }
+  },
+  "tools_generated": true,
+  "compatibility": {
+    "claude_desktop": ">=1.0.0",
+    "platforms": ["darwin", "win32"]
+  }
+}
