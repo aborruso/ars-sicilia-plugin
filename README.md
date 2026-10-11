@@ -11,6 +11,8 @@ Il server è la [CLI ars-sicilia](https://github.com/mvanhorn/printing-press-lib
 
 ## Installazione
 
+I nomi dei menu sono quelli dell'interfaccia di Claude Desktop in inglese; con l'interfaccia in italiano le voci sono le stesse, tradotte.
+
 ### 1. L'estensione (Claude Desktop)
 
 Scarica `ars-sicilia.mcpb` e installalo da **Settings > Extensions > Advanced settings > Install Extension…**, oppure trascinalo nella finestra di Claude Desktop. Su Windows il doppio clic sul file può non aprire l'installazione. Conferma nella schermata che si apre e riavvia Claude Desktop.
