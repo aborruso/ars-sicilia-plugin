@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-07 - release v0.1.1
+
+- Estensione ricostruita dal sorgente della CLI 2026.11.1 (PR #2436 del catalogo): `2026.11.1-local.373f24a`. Skill invariata, quindi lo zip del plugin è lo stesso di v0.1.0.
+- Prova in WSL con i `.exe` del bundle: `version` dà 2026.11.1, il caso Giambona con `--limit 24` dà 24 righe e `totale: 24`, il server MCP elenca 56 strumenti. macOS non provato e installazione in Claude Desktop non rifatta.
+
 ## 2026-10-11 - prove nell'interfaccia unica e link nelle risposte
 
 - Chat e Cowork ora sono un'unica interfaccia (annuncio Anthropic del 2026-09-16). Prova su Windows: gli strumenti dell'estensione funzionano sia nelle domande brevi sia in un task lungo che crea un Claude Docs (42 `tools/call` al server `ARS Sicilia` tra le 21:04 e le 21:18). La skill si carica se la nomini («Loaded skill ars-sicilia») e poi guida le chiamate: `ddl_get`, `ddl_iter`, `novita`, `commissioni_sommari`, `commissioni_convocazioni`. Non provato: se si attiva da sola, senza essere nominata.
