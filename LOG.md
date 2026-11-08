@@ -1,5 +1,10 @@
 # LOG
 
+## 2026-11-08 - release v0.1.2
+
+- Estensione ricostruita dal sorgente della CLI 2026.11.2 (PR #2439 del catalogo): `2026.11.2-local.f853ee0`. Skill invariata, lo zip del plugin è lo stesso.
+- Prova in WSL con i `.exe` del bundle: `version` dà 2026.11.2, `novita --csv` 25 righe senza `map[`, `commissione dossier 5 --legisl 18 --select titolo` 115 titoli senza avvisi, il server MCP elenca 56 strumenti. macOS non provato e installazione in Claude Desktop da fare.
+
 ## 2026-11-07 - release v0.1.1
 
 - Estensione ricostruita dal sorgente della CLI 2026.11.1 (PR #2436 del catalogo): `2026.11.1-local.373f24a`. Skill invariata, quindi lo zip del plugin è lo stesso di v0.1.0.
